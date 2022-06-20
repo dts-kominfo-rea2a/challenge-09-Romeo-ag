@@ -1,0 +1,30 @@
+.contact {
+    /* margin:20px 0px; */
+    max-height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 25px;
+    margin: 0px 30vw 23px 30vw;
+    width: 400;
+    background-color: rgb(247, 190, 104);
+    justify-content: center;
+
+}
+
+img {
+    border-radius: 50%;
+    max-height: 136px;
+    max-width: 136px;
+    margin: 10px;
+}
+
+.photo{
+    order: 1;
+    flex-basis: 50%;
+}
+
+.detail{
+    order: 2;
+    flex-grow: 2;
+}

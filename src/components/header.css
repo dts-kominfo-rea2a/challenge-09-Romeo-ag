@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    /* display: flex; */
+}
+
+.subtitle{
+    /* display: flex; */
+    /* position: relative; */
+
+}
+
+.line{
+ color : #ff8080
+}

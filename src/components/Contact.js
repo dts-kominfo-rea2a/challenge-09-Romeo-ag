@@ -6,7 +6,7 @@ import React from 'react';
 const Contact = ({contacts}) => {
     return (
         <>
-        <div className='contact'>
+        <div className='contact-container'>
             <div className='photo'><img src={contacts.photo} alt={contacts.photo}></img></div>
             <div className="detail">
             <div className='name'><p>{contacts.name}</p></div>

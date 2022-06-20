@@ -7,12 +7,13 @@ const Contact = ({data}) => {
     return (
         <>
         <div className='contact-container'>
+        <div className='photo'><img src={data.photo} alt={data.photo}></img></div>
             <div className="detail">
             <div className='name'><p>{data.name}</p></div>
             <div className='phone'><p>{data.phone}</p></div>
             <div className='email'><p>{data.email}</p></div>        
             </div>            
-            <div className='photo'><img src={data.photo} alt={data.photo}></img></div>
+
 
         </div>
 </>
